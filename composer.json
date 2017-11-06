@@ -1,0 +1,23 @@
+{
+    "name": "razorbacks/digital-measures-rest-wrapper",
+    "description": "Lightweight wrapper for https://www.digitalmeasures.com/login/dashboard/Digital%20Measures%20-%20Web%20Services%20v4.pdf",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Jeff Puckett",
+            "email": "jpucket@uark.edu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "razorbacks\\digitalmeasures\\rest\\": "src"
+        }
+    },
+    "require": {
+        "kitetail/zttp": "^0.3.0",
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
