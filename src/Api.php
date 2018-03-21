@@ -7,7 +7,7 @@ use Exception;
 
 class Api
 {
-    protected $baseUrl = 'https://www.digitalmeasures.com/login/service/v4';
+    protected $baseUrl = 'https://beta.digitalmeasures.com/login/service/v4';
     protected $username;
     protected $password;
 
